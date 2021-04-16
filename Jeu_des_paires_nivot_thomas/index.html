@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Memory Cards scene</title>
+</head>
+
+<body>
+<!-- FENETRES DE FIN -->
+    <div id="victory" class="victory-screen">
+        <h2>Gagné !</h2>
+        <a href="index.html" class="btn">Rejouer ?</a>
+    </div>
+    <div id='game-over-text' class="victory-screen">
+        <h2>Defaite</h2>
+        <a href="index.html" class="btn">Rejouer?</a>
+    </div>
+
+<!-- HEADER -->
+    <header class="gameInfos">
+        <h1>Jeu des Paires</h1>
+        <div class="game-info">
+            Nombre de coup(s) : <span id="flip-count">0</span>
+        </div>
+        <div class="game-info">
+            Paire(s) trouvée(s) : <span id="victory-count">0</span>/6
+        </div>
+        <div class="game-info">
+            Time : <span id="time-remaining"></span>  
+        </div>
+    </header>
+
+<!-- GAME SCENE -->
+    <section class="game-scene">
+        <div class="game-card" data-cardname="umbrella1" >
+            <img src="img/tete.png" alt="" class="front-face">
+            <img src="img/YGO_back.png" alt="back cover de la carte" class="back-face">
+        </div>
+        <div class="game-card" data-cardname="umbrella1">
+            <img src="img/tete.png" alt="" class="front-face">
+            <img src="img/YGO_back.png" alt="back cover de la carte" class="back-face">
+        </div>
+        <div class="game-card" data-cardname="umbrella2">
+            <img src="img/bras_gauche.png" alt="" class="front-face">
+            <img src="img/YGO_back.png" alt="back cover de la carte" class="back-face">
+        </div>
+        <div class="game-card" data-cardname="umbrella2">
+            <img src="img/bras_gauche.png" alt="" class="front-face">
+            <img src="img/YGO_back.png" alt="back cover de la carte" class="back-face">
+        </div>
+        <div class="game-card" data-cardname="umbrella3">
+            <img src="img/bras_droit.png" alt="" class="front-face">
+            <img src="img/YGO_back.png" alt="back cover de la carte" class="back-face">
+        </div>
+        <div class="game-card" data-cardname="umbrella3">
+            <img src="img/bras_droit.png" alt="" class="front-face">
+            <img src="img/YGO_back.png" alt="back cover de la carte" class="back-face">
+        </div>
+        <div class="game-card" data-cardname="umbrella4">
+            <img src="img/pied_gauche.png" alt="" class="front-face">
+            <img src="img/YGO_back.png" alt="back cover de la carte" class="back-face">
+        </div>
+        <div class="game-card" data-cardname="umbrella4">
+            <img src="img/pied_gauche.png" alt="" class="front-face">
+            <img src="img/YGO_back.png" alt="back cover de la carte" class="back-face">
+        </div>
+        <div class="game-card" data-cardname="umbrella5">
+            <img src="img/pied_droit.png" alt="" class="front-face">
+            <img src="img/YGO_back.png" alt="back cover de la carte" class="back-face">
+        </div>
+        <div class="game-card" data-cardname="umbrella5">
+            <img src="img/pied_droit.png" alt="" class="front-face">
+            <img src="img/YGO_back.png" alt="back cover de la carte" class="back-face">
+        </div>
+        <div class="game-card" data-cardname="umbrella6">
+            <img src="img/dragon_blanc.jpg" alt="" class="front-face">
+            <img src="img/YGO_back.png" alt="back cover de la carte" class="back-face">
+        </div>
+        <div class="game-card" data-cardname="umbrella6">
+            <img src="img/dragon_blanc.jpg" alt="" class="front-face">
+            <img src="img/YGO_back.png" alt="back cover de la carte" class="back-face">
+        </div>
+    </section>
+
+    <!-- Chargement script js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
